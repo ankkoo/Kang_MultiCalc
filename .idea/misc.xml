@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/MinchaeFile/Android/Kang_MultiCalc/app/src/main/res/layout/activity_accel.xml" value="0.33" />
+        <entry key="..\:/MinchaeFile/Android/Kang_MultiCalc/app/src/main/res/layout/activity_cone.xml" value="0.36614583333333334" />
+        <entry key="..\:/MinchaeFile/Android/Kang_MultiCalc/app/src/main/res/layout/activity_cuboid.xml" value="0.36614583333333334" />
+        <entry key="..\:/MinchaeFile/Android/Kang_MultiCalc/app/src/main/res/layout/activity_cylinder.xml" value="0.36614583333333334" />
+        <entry key="..\:/MinchaeFile/Android/Kang_MultiCalc/app/src/main/res/layout/activity_density.xml" value="0.36614583333333334" />
+        <entry key="..\:/MinchaeFile/Android/Kang_MultiCalc/app/src/main/res/layout/activity_dm.xml" value="0.36614583333333334" />
+        <entry key="..\:/MinchaeFile/Android/Kang_MultiCalc/app/src/main/res/layout/activity_geometry.xml" value="0.36614583333333334" />
+        <entry key="..\:/MinchaeFile/Android/Kang_MultiCalc/app/src/main/res/layout/activity_gravity.xml" value="0.36614583333333334" />
+        <entry key="..\:/MinchaeFile/Android/Kang_MultiCalc/app/src/main/res/layout/activity_main.xml" value="0.33" />
+        <entry key="..\:/MinchaeFile/Android/Kang_MultiCalc/app/src/main/res/layout/activity_physics.xml" value="0.36614583333333334" />
+        <entry key="..\:/MinchaeFile/Android/Kang_MultiCalc/app/src/main/res/layout/activity_pyramid.xml" value="0.36614583333333334" />
+        <entry key="..\:/MinchaeFile/Android/Kang_MultiCalc/app/src/main/res/layout/activity_speed.xml" value="0.36614583333333334" />
+        <entry key="..\:/MinchaeFile/Android/Kang_MultiCalc/app/src/main/res/layout/activity_sphere.xml" value="0.33" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="Android Studio default JDK" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

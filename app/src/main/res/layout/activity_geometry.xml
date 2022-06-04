@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1EDE2"
+    android:backgroundTint="#EFF1E8">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:fontFamily="sans-serif-black"
+        android:text="Geometry"
+        android:textColor="@color/skyBlue"
+        android:textSize="21dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.173" />
+
+    <Button
+        android:id="@+id/btnCone"
+        android:layout_width="117dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/skyBlue"
+        android:text="Cone"
+        app:layout_constraintTop_toBottomOf="@+id/btnCyl"
+        tools:layout_editor_absoluteX="222dp" />
+
+    <Button
+        android:id="@+id/btnPyr"
+        android:layout_width="117dp"
+        android:layout_height="117dp"
+        android:backgroundTint="@color/skyBlue"
+        android:text="Pyramid"
+        app:layout_constraintEnd_toEndOf="@+id/btnCyl"
+        app:layout_constraintStart_toStartOf="@+id/btnCuboid"
+        tools:layout_editor_absoluteY="482dp" />
+
+    <Button
+        android:id="@+id/btnCuboid"
+        android:layout_width="117dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="76dp"
+        android:backgroundTint="@color/skyBlue"
+        android:text="Cuboid"
+        app:layout_constraintEnd_toStartOf="@+id/btnCyl"
+        app:layout_constraintHorizontal_bias="0.666"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/btnCyl"
+        android:layout_width="117dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="72dp"
+        android:backgroundTint="@color/skyBlue"
+        android:text="Cylinder"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <Button
+        android:id="@+id/btnSph"
+        android:layout_width="117dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="12dp"
+        android:backgroundTint="@color/skyBlue"
+        android:text="Sphere"
+        app:layout_constraintTop_toBottomOf="@+id/btnCuboid"
+        tools:layout_editor_absoluteX="70dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F1EDE2"
+    android:backgroundTint="#EFF1E8">
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:editable="false"
+        android:fontFamily="sans-serif-black"
+        android:text="Physics"
+        android:textColor="@color/skyBlue"
+        android:textSize="21dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.173" />
+
+    <Button
+        android:id="@+id/btnDM"
+        android:layout_width="117dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="80dp"
+        android:layout_marginEnd="72dp"
+        android:backgroundTint="@color/skyBlue"
+        android:text="Distance Motion"
+        app:layout_constraintBottom_toTopOf="@+id/btnDen"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.896"
+        app:layout_constraintStart_toEndOf="@+id/btnSpeed"
+        app:layout_constraintTop_toBottomOf="@+id/textView3"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnDen"
+        android:layout_width="117dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="24dp"
+        android:backgroundTint="@color/skyBlue"
+        android:text="Density"
+        app:layout_constraintEnd_toEndOf="@+id/btnDM"
+        app:layout_constraintStart_toEndOf="@+id/btnAccel"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteY="371dp" />
+
+    <Button
+        android:id="@+id/btnAccel"
+        android:layout_width="117dp"
+        android:layout_height="117dp"
+        android:layout_marginTop="24dp"
+        android:backgroundTint="@color/skyBlue"
+        android:text="Acceleration"
+        app:layout_constraintTop_toBottomOf="@+id/btnSpeed"
+        tools:layout_editor_absoluteX="76dp" />
+
+    <Button
+        android:id="@+id/btnSpeed"
+        android:layout_width="117dp"
+        android:layout_height="117dp"
+        android:layout_marginStart="76dp"
+        android:layout_marginTop="80dp"
+        android:backgroundTint="@color/skyBlue"
+        android:text="Speed"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
